@@ -6,7 +6,7 @@ my $text = <<EOF;
 123-123 is ok
 EOF
 
-while ($text =~ m<\b(\d{3}-\d{3})\b>g) {
+while ($text =~sqsqs) {
 	print $1."\n";
 }
 
